@@ -1,0 +1,31 @@
+{
+  "name": "fluent-ffmpeg-electron-react",
+  "version": "1.0.0",
+  "author": {
+    "name": "Austin Brown",
+    "email": "ddlinkab@gmail.com"
+  },
+  "description": "A fluent API to FFMPEG (http://www.ffmpeg.org)",
+  "main": "index.js",
+  "bundleDependencies": false,
+  "dependencies": {
+    "async": ">=0.2.9",
+    "which": "^1.1.1"
+  },
+  "deprecated": false,
+  "devDependencies": {
+    "jsdoc": "latest",
+    "mocha": "latest",
+    "should": "latest"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "keywords": [
+    "ffmpeg"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "make test"
+  }
+}
